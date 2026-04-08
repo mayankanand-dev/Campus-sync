@@ -7,7 +7,7 @@ import {
   MessageSquarePlus, Search, Plus, ChevronDown, ChevronUp,
   Clock, CheckCircle2, Package,
 } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
+
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
@@ -245,6 +245,7 @@ export default function SharePage() {
       .select("*, user:users!equipment_comments_user_id_fkey(id,name,email)")
       .order("created_at", { ascending: true });
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const enriched: RequestWithMeta[] = (reqs ?? []).map((r: any) => ({
       ...r,
       user_name:  r.user?.name  ?? "Unknown",

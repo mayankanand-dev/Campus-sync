@@ -1,11 +1,11 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useState, useMemo, useCallback } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer,
-  LineChart, Line, AreaChart, Area, PieChart, Pie, Cell, Legend,
+  LineChart, Line, AreaChart, Area, Legend,
 } from "recharts";
 import {
   LayoutDashboard, Activity, BarChart2, Bell, Users, QrCode,

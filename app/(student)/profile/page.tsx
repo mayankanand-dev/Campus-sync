@@ -1,16 +1,15 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import { format, startOfWeek, getWeek, differenceInDays } from "date-fns";
+import { format, getWeek, differenceInDays } from "date-fns";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
-  PieChart, Pie, Cell, Legend, CartesianGrid, LineChart, Line,
+  PieChart, Pie, Cell, Legend, CartesianGrid,
 } from "recharts";
 import { BookOpen, Coffee, Monitor, Zap, Circle, QrCode, X } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -433,3 +432,4 @@ export default function ProfilePage() {
     </div>
   );
 }
+

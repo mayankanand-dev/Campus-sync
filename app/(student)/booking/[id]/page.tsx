@@ -32,7 +32,9 @@ export default function BookingDetailPage({ params }: { params: { id: string } }
         .single();
       if (data) {
         setBooking(data as unknown as Booking);
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         setSlot((data as any).slot as Slot);
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         setResource((data as any).resource as Resource);
       }
       setLoading(false);
