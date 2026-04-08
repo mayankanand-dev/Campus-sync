@@ -7,7 +7,7 @@
 <h4 align="center">A smart campus resource booking and management platform built for VIT Bhopal University.</h4>
 
 <p align="center">
-  <a href="https://campus-sync-mayankanand.vercel.app">
+  <a href="https://campus-sync-nine.vercel.app">
     <img src="https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo">
   </a>
   <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js 14">
@@ -28,7 +28,7 @@
 
 ## 🌐 Live Demo
 
-**[https://campus-sync-mayankanand.vercel.app](https://campus-sync-mayankanand.vercel.app)**
+**[https://campus-sync-nine.vercel.app](https://campus-sync-nine.vercel.app)**
 
 > Sign in with your Google account. Contact the admin to get elevated permissions.
 
