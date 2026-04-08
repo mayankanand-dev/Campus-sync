@@ -260,7 +260,9 @@ All tables are protected by Supabase RLS:
 
 ## 👤 Author
 
-**Mayank Anand**  
+**Mayank Anand** 
+**Rohan chetty**
+**Akhil prtap singh**
 VIT Bhopal University  
 [github.com/mayankanand-dev](https://github.com/mayankanand-dev)
 
